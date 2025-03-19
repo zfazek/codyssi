@@ -1,5 +1,4 @@
 fn main() {
-    println!("Hello, world!");
     let input = include_str!("../../input.txt");
     let vv = input.lines().collect::<Vec<_>>();
     let mut dirs = vv[vv.len() - 1].chars().collect::<Vec<_>>();
